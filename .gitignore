@@ -1,0 +1,27 @@
+# Data — never commit the raw dataset
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Models & artifacts
+models/
+*.pkl
+*.joblib
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Someone else's downloaded Kaggle notebook — not ours to redistribute
+reference/
+
+# Gradio
+.gradio/
+flagged/
